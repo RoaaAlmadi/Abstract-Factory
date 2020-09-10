@@ -1,9 +1,10 @@
 package com.observable.company;
 
-public class MSWindowsWidgetFactory extends AbstractWidgetFactory {
+public class MSWindowsWidgetFactory implements AbstractWidgetFactory {
 
     public Window createWindow() {
-        System.out.println("Microsoft Window created: ");
-        return createWindow();
+        Window w = new MSWindow();
+        w.setTitle("MSWindow");
+        return w;
     }
 }
