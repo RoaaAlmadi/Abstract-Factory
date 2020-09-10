@@ -4,7 +4,7 @@ public class MSWindowsWidgetFactory implements AbstractWidgetFactory {
 
     public Window createWindow() {
         Window w = new MSWindow();
-        w.setTitle("MSWindow");
+        w.setTitle("MS Window");
         return w;
     }
 }
