@@ -1,8 +1,8 @@
 package com.observable.company;
 
-public class MacOSXWindowsFactory extends AbstractWidgetFactory {
+public class MacOSXWindowsFactory implements AbstractWidgetFactory {
 
     public Window createWindow() {
-        return null;
+        return new MacOSXWindow();
     }
 }

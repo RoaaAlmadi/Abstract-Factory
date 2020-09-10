@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="db0dda7b-e3cf-4ea7-870c-46b84a9e8d19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/observable/company/AbstractWidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/observable/company/AbstractWidgetFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/observable/company/MSWindowsWidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/observable/company/MSWindowsWidgetFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/observable/company/MacOSXWindowsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/observable/company/MacOSXWindowsFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
