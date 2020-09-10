@@ -1,9 +1,7 @@
 package com.observable.company;
 
 
-public abstract class AbstractWidgetFactory {
+public interface AbstractWidgetFactory {
 
-    public Window createWindow() {
-        return null;
-    }
+    Window createWindow();
 }
