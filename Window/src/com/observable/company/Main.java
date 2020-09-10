@@ -10,8 +10,10 @@ public class Main {
         MacOSXWidgetFactory macOSXWidgetFactory = new MacOSXWidgetFactory();
         Window m = macOSXWidgetFactory.createWindow();
 
-        AbstractWidgetFactory f = new MacOSXWidgetFactory();
-        Window w2 = f.createWindow();
+        AbstractWidgetFactory f1 = new MSWindowsWidgetFactory();
+        AbstractWidgetFactory f2 = new MacOSXWidgetFactory();
+        Window w1 = f1.createWindow();
+        Window w2 = f2.createWindow();
 
     }
 }
